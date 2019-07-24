@@ -1,0 +1,4 @@
+<div class="flag">
+    <img [src]="imageSrc" (click)="onClick.emit({ event: $event, country: country })" width="180" [alt]="'Flag of ' + country">
+    <h4>{{country}}</h4>
+</div>
